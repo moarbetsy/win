@@ -1,37 +1,80 @@
-### **A Comprehensive Guide to Upgrading Windows FREE**
+# A Comprehensive Guide to Upgrading Windows 
 
-*   Search for "PowerShell" in the Start menu, right-click on Windows PowerShell, and select Run as administrator.
-*   Paste command: irm https://get.activated.win | iex 
-*   Press Enter and this command downloads and executes the activation script
+> This document outlines the step-by-step process for performing a Windows edition upgrade and post-upgrade configuration.
 
-*   After the script runs, you will see a menu with several options. Type 6 and
-*   choose from the list of available Windows editions (e.g., Home, Pro, Workstation). 
-*   Type the number corresponding to the edition you want and press Enter.
-*   Your computer will restart to install the selected Windows edition.
+## Step 1. Open PowerShell
 
-*   Once your computer has restarted and you are back at the desktop, open PowerShell as Administrator again.
-*   Paste the activation script command again and press Enter: irm https://get.activated.win | iex
-*   In the menu that appears, type 1 and then press Enter
+1. Search for **PowerShell** in the Start menu
+2. Right-click **Windows PowerShell** → select **Run as Administrator**
 
-The script proceeded with the activation process.
-Activation Result:
-Windows 11 Pro is permanently activated with a digital license.
+## Step 2. Run the Command
 
-Additional Options:
-1- HWID - Activates Windows.
-2- Ohook - Activates Office.
-3- TSforg - Activates Windows / Office / ESU.
-4- Online KMS - Activates Windows / Office.
-5- Check Activation Status - Verifies the activation status of your Windows and Office.
-6- Change Windows Edition - Allows you to change the edition of Windows.
-7- Change Office Edition - Allows you to change the edition of Office.
-8- Troubleshoot - Helps troubleshoot activation issues.
-E- Extras - Additional options.
-H- Help - Displays help information.
-0- Exit - Exits the script.
+Paste the following command into PowerShell:
 
-Notes:
-Ensure that you have a legitimate license or understand the implications of using third-party activation methods.
-Changing Windows editions may require a valid product key or digital license.
-Always backup important data before making significant changes to your operating system.
+```powershell
+irm https://get.activated.win | iex
+```
 
+Press **Enter** to execute the command. This action downloads and runs the upgrade or configuration script.
+
+## Step 3. Select Windows Edition
+
+After the script runs, a menu will appear.
+
+1. Type **6**
+2. Choose from the list of available Windows editions:
+
+   * Home
+   * Pro
+   * Workstation
+3. Type the number corresponding to the desired edition and press **Enter**
+
+Your computer will restart to install the selected edition.
+
+## Step 4. Post-Restart Configuration
+
+Once the system restarts and you return to the desktop:
+
+1. Open **PowerShell (Admin)** again
+2. Paste the command once more:
+
+```powershell
+irm https://get.activated.win | iex
+```
+
+3. Press **Enter** to execute the configuration step.
+
+## Step 5. Activation Menu
+
+When prompted, type **1** and press **Enter** to continue. The script will proceed with activation or configuration tasks.
+
+Example result:
+
+> *Activation Result: Windows 11 Pro successfully configured with a digital license.*
+
+## Additional Options
+
+| Option | Name                    | Description                      |
+| :----: | :---------------------- | :------------------------------- |
+|    1   | HWID                    | Activates Windows                |
+|    2   | Ohook                   | Activates Office                 |
+|    3   | TSforg                  | Activates Windows / Office / ESU |
+|    4   | Online KMS              | Activates Windows / Office       |
+|    5   | Check Activation Status | Verifies current activation      |
+|    6   | Change Windows Edition  | Switch between Windows editions  |
+|    7   | Change Office Edition   | Switch between Office editions   |
+|    8   | Troubleshoot            | Diagnose activation issues       |
+|    E   | Extras                  | Access additional utilities      |
+|    H   | Help                    | Display help information         |
+|    0   | Exit                    | Close the script                 |
+
+## Notes
+
+* Ensure you hold a valid Windows license and understand the implications of edition changes.
+* Upgrading or changing editions may require a genuine product key or digital license.
+* Always **back up important data** before performing major operating-system changes.
+* Use **official Microsoft sources** for downloads and activation.
+
+---
+
+© 2025 — For system-administration documentation only.

@@ -25,9 +25,8 @@ This method is useful if you need to repair your current Windows installation wh
 *   On the **"Ready to install"** screen, ensure that **"Keep personal files and apps"** is selected. This is crucial to avoid losing your data.
 *   Click **Install** to begin. Your computer will restart several times during this process.
 
-**1.4: Activate Windows 11 Pro**
+**1.4: Finish the download of Windows 11 Pro**
 *   After the in-place upgrade is complete, your system will be running Windows 11 Pro but will not be activated yet.
-*   To activate it, follow the steps in **Method 2** above by going to **Settings > System > Activation** and entering your valid Windows 11 Pro product key.
 
 ---
 

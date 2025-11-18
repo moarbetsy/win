@@ -1,57 +1,37 @@
-### **A Comprehensive Guide to Upgrading Windows 11 Home to Pro**
+### **A Comprehensive Guide to Upgrading Windows FREE**
 
-Upgrading from Windows 11 Home to Pro unlocks powerful features designed for professionals and advanced users, including BitLocker encryption, Remote Desktop, and advanced networking tools. This guide provides step-by-step instructions for a secure and legitimate upgrade.
+*   Search for "PowerShell" in the Start menu, right-click on Windows PowerShell, and select Run as administrator.
+*   Paste command: irm https://get.activated.win | iex 
+*   Press Enter and this command downloads and executes the activation script
 
----
+*   After the script runs, you will see a menu with several options. Type 6 and
+*   choose from the list of available Windows editions (e.g., Home, Pro, Workstation). 
+*   Type the number corresponding to the edition you want and press Enter.
+*   Your computer will restart to install the selected Windows edition.
 
-### **1. In-Place Upgrade Using a Windows 11 ISO File**
+*   Once your computer has restarted and you are back at the desktop, open PowerShell as Administrator again.
+*   Paste the activation script command again and press Enter: irm https://get.activated.win | iex
+*   In the menu that appears, type 1 and then press Enter
 
-This method is useful if you need to repair your current Windows installation while also upgrading to Pro. It essentially reinstalls Windows over itself, keeping your files and apps intact.
+The script proceeded with the activation process.
+Activation Result:
+Windows 11 Pro is permanently activated with a digital license.
 
-**1.1: Download the Official Windows 11 ISO**
-*   Go to the official [Microsoft Software Download page for Windows 11](https://www.microsoft.com/software-download/windows11).
-*   Scroll to the **"Download Windows 11 Disk Image (ISO)"** section.
-*   Select **"Windows 11 (multi-edition ISO)"** from the dropdown menu and click **Download**.
-*   Choose your product language, click **Confirm**, and then click the **"64-bit Download"** button to save the file.
+Additional Options:
+1- HWID - Activates Windows.
+2- Ohook - Activates Office.
+3- TSforg - Activates Windows / Office / ESU.
+4- Online KMS - Activates Windows / Office.
+5- Check Activation Status - Verifies the activation status of your Windows and Office.
+6- Change Windows Edition - Allows you to change the edition of Windows.
+7- Change Office Edition - Allows you to change the edition of Office.
+8- Troubleshoot - Helps troubleshoot activation issues.
+E- Extras - Additional options.
+H- Help - Displays help information.
+0- Exit - Exits the script.
 
-**1.2: Mount the ISO File**
-*   Once the download is finished, find the ISO file in your Downloads folder.
-*   Right-click the ISO file and select **Mount**. This will create a virtual drive in This PC, allowing you to access its contents.
+Notes:
+Ensure that you have a legitimate license or understand the implications of using third-party activation methods.
+Changing Windows editions may require a valid product key or digital license.
+Always backup important data before making significant changes to your operating system.
 
-**1.3: Run the Windows 11 Setup**
-*   Open the newly mounted virtual drive and double-click the **setup.exe** file.
-*   Click **Yes** if a User Account Control prompt appears.
-*   Follow the on-screen instructions, accepting the license terms.
-*   On the **"Ready to install"** screen, ensure that **"Keep personal files and apps"** is selected. This is crucial to avoid losing your data.
-*   Click **Install** to begin. Your computer will restart several times during this process.
-
-**1.4: Finish the download of Windows 11 Pro**
-*   After the in-place upgrade is complete, your system will be running Windows 11 Pro but will not be activated yet.
-
----
-
-### **2. Activate Windows 11 Pro Using Microsoft Activation Scripts**
-
-After the in-place upgrade is complete, your system will be running an inactivated version of Windows 11 Pro. The following steps detail how to use the massgravel script for activation.
-
-**2.1: Open PowerShell as Administrator:**
-*   Click the **Start** button, type "PowerShell".
-*   Right-click on **Windows PowerShell** in the search results and select **"Run as administrator"**.
-*   Click **Yes** on the User Account Control prompt.
-
-**2.2: Run the Activation Script:**
-*   In the blue PowerShell window, copy and paste the following command, then press **Enter**:
-        ```powershell
-        irm https://massgrave.dev/get | iex
-        ```
-*   This command downloads and executes the activation script.
-
-**2.3: Follow the On-Screen Menu:**
-*   An activation menu will appear in the PowerShell window with several options.
-*   For a permanent activation of Windows, select the **HWID (Hardware ID)** activation option. Type the corresponding number for this option and press **Enter**.
-*   The script will run and confirm once the activation is successful.
-
-**2.4: Verify Activation:**
-*   Once the script finishes, you can check your activation status.
-*   Go to **Settings > System > Activation**.
-*   It should now show that Windows 11 Pro is active.

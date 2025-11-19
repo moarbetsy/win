@@ -134,7 +134,7 @@ if (-not $currentPrincipal.IsInRole([Security.Principal.WindowsBuiltInRole]::Adm
 }
 
 # Helpers
-function Refresh-Environment {
+function Update-Environment {
     Log-Message "Refreshing process environment variables..." -Type INFO
     $machinePath  = [Environment]::GetEnvironmentVariable('Path', 'Machine') -split ';'
     $userPath     = [Environment]::GetEnvironmentVariable('Path', 'User') -split ';'
@@ -327,7 +327,7 @@ foreach ($app in $Config.Apps) {
     if ($result -eq "FAILED") { [void]$failedInstalls.Add($app) }
 }
 
-Refresh-Environment
+Update-Environment
 
 # ---------------------------------------------------------------------------
 # 4. Tooling Configuration (Node/Python/Git/VS Code)
@@ -516,7 +516,7 @@ function Update-WindowsTerminalFont {
                 Log-Message " - Font already '$FontName' in $(Split-Path -Leaf $p)." -Type INFO
             }
         } catch {
-            Log-Message " - Failed to update $p: $($_.Exception.Message)" -Type WARN
+            Log-Message " - Failed to update ${p}: $($_.Exception.Message)" -Type WARN
         }
     }
 
